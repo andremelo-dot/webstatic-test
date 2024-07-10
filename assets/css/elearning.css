@@ -1,0 +1,16 @@
+.content-tablet {
+  display: none;
+}
+
+body {
+  background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .content-tablet {
+    display: block;
+  }
+  .content-desk {
+    display: none;
+  }
+}
